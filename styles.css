@@ -9,6 +9,10 @@ body{
     margin: 0;
     background-color: #d7e7ee;
     width: 100%;
+    clear: both;
+    min-height: 400px;
+    margin-bottom: 200px;
+    position: relative;
 
 }
 #sidebar {
@@ -33,7 +37,7 @@ body{
 
 .header {
     /*Strictly Necessary */
-    position: fixed;
+    position: absolute;
     top: 20px;
 	width: 70%;	
 	height: 100px; /*Adjust the hight to your purposes*/
@@ -63,6 +67,7 @@ main {
 
 p{
     width: 65%;
+    display: inline-block;
     margin: 0 auto;
     font-family: 'helvetica'; 
     text-align: center;
@@ -147,7 +152,8 @@ li a.active {
 
 li a:hover:not(.active) {
     background-color: #555;
-    color: white;}
+    color: white;
+}
 
 
 
